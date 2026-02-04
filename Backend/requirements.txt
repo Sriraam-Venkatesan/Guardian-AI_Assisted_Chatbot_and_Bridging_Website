@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+groq
+python-docx
+pymupdf
+pillow
+requests
+python-multipart
+passlib[bcrypt]
+bcrypt
+

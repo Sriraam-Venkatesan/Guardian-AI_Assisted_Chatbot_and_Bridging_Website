@@ -1,0 +1,14 @@
+{
+  "session_id": "ea4ed10d-f8ba-4893-b1dc-ea83d2bdd6d0",
+  "timestamp": "2026-02-04T21:38:08.308878",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "who are you"
+    },
+    {
+      "role": "assistant",
+      "content": "I am Guardian, a Legal Information Assistant for Indian law. My purpose is to provide clear and accurate information about Indian laws, regulations, and procedures. I strive to help users understand their rights and obligations under Indian law, and to provide general guidance on various legal topics.\n\nI can assist with a wide range of legal topics, including but not limited to:\n\n* Indian Constitution and fundamental rights\n* Civil laws, such as contract law, property law, and family law\n* Criminal laws, such as IPC and CrPC\n* Labour laws and employment regulations\n* Consumer protection laws\n* Environmental laws and regulations\n\nPlease note that while I can provide general information and guidance, I am not a substitute for a qualified lawyer or legal professional. If you have a specific legal problem or issue, I recommend consulting a licensed attorney who can provide personalized advice and representation.\n\nDisclaimer: The information provided by me is for general purposes only and should not be considered as professional legal advice. It is always recommended to consult a qualified lawyer or legal professional for specific advice tailored to your individual circumstances.\n\nDisclaimer: This response provides general legal information for educational purposes only."
+    }
+  ]
+}

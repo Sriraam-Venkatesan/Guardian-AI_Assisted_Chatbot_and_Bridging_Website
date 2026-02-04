@@ -1,0 +1,20 @@
+{
+    "name": "guardian-ai-platform",
+    "version": "1.0.0",
+    "description": "Unified runner for Guardian AI Platform",
+    "private": true,
+    "scripts": {
+        "install:all": "npm install --prefix Frontend/Register/sign-in && npm install --prefix Frontend/Register/user-register && npm install --prefix Frontend/Profile/user-profile && npm install --prefix Frontend/Profile/advocate-profile && npm install --prefix Frontend/Chat/chat-user && npm install --prefix Frontend/Chat/chat-advocate",
+        "dev:backend": "cd Backend && ..\\.venv\\Scripts\\python.exe main.py",
+        "dev:signin": "npm run dev --prefix Frontend/Register/sign-in -- --port 5173",
+        "dev:signup": "npm run dev --prefix Frontend/Register/user-register -- --port 5174",
+        "dev:profile": "npm run dev --prefix Frontend/Profile/user-profile -- --port 5175",
+        "dev:advocate-profile": "npm run dev --prefix Frontend/Profile/advocate-profile -- --port 5178",
+        "dev:chat-user": "npm run dev --prefix Frontend/Chat/chat-user -- --port 5176",
+        "dev:chat-advocate": "npm run dev --prefix Frontend/Chat/chat-advocate -- --port 5177",
+        "dev": "concurrently -n \"BACKEND,SIGNIN,SIGNUP,PROFILE-U,PROFILE-A,CHAT-U,CHAT-A\" -c \"green,blue,magenta,cyan,red,yellow,white\" \"npm run dev:backend\" \"npm run dev:signin\" \"npm run dev:signup\" \"npm run dev:profile\" \"npm run dev:advocate-profile\" \"npm run dev:chat-user\" \"npm run dev:chat-advocate\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Noto+Serif:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #00000058, rgb(255, 255, 255));
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#box {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 500px;
+  width: 350px;
+  background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px black;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit-but {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom right, #966125, #5a4102);
+  color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.584);
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+#submit-but:hover {
+  background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+}
+
+.inputs {
+  font-family: 'Noto Serif', serif;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 10px;
+  width: 280px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.inputs:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px black;
+}
+
+.headers {
+  font-family: 'Cinzel', serif;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+#title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+#line {
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#line2 {
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#cred {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#username{
+  margin-left: 50px;
+}
+#pass{
+  margin-left: 110px;
+}
+.password-toggle {
+  margin-top: 15px;
+  font-family: 'Noto Serif', serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.password-toggle input[type="checkbox"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #box {
+    width: 85%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+
+  #line,
+  #line2 {
+    width: 90%;
+  }
+}

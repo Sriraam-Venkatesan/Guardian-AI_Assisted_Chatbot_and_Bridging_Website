@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Guardian Gold.png">
+    <title>Guardian | Home</title>
+</head>
+<style>
+    @font-face {
+        font-family: "home-font";
+        src: url("./Cinzel-Bold.otf");
+    }
+
+    @font-face {
+        font-family: "home-para";
+        src: url("./cinzel.regular.otf");
+    }
+
+    @font-face {
+        font-family: "home-cred";
+        src: url("./NotoSerif-VariableFont_wdth\,wght.ttf");
+    }
+
+    body {
+        height: 200vh;
+        display: grid;
+        grid-template-rows: 7fr 7fr 3fr;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, #00000058, rgb(255, 255, 255));
+    }
+
+    #guardian {
+        font-family: home-font;
+        font-size: 200px;
+
+        background: -webkit-linear-gradient(#dd8d32, #8f6703);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    #helpline {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "home-para";
+        background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+        border-radius: 50px 50px 0 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.525);
+        font-family: "home-cred";
+
+    }
+
+    #line {
+        height: 4px;
+        width: 1000px;
+        background-color: #8f6703;
+        display: flex;
+        padding: 0px;
+        margin-left: 20px;
+
+    }
+
+    #top-page {
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+        margin-top: 140px;
+
+    }
+
+    #tagline {
+
+        font-family: home-para;
+        font-size: 50px;
+        margin-top: 0px;
+        color: #8f6703;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+
+    }
+
+    #front {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #log {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 35px;
+        margin-left: 20px;
+        padding: 0px;
+    }
+
+    .reg {
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        border: none;
+        font-family: home-para;
+        font-size: 16px;
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+        color: white;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.584);
+    }
+
+    .reg:hover {
+        background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+        cursor: pointer;
+    }
+
+    #desc {
+        background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        border-radius: 0px 50px 0px 0px;
+    }
+
+    #statue {
+        height: 576px;
+        width: 378.3px;
+        display: inline;
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+
+    .lines {
+        margin: 0px;
+        padding: 0px;
+        height: 3px;
+        width: 1521px;
+        background-color: #ffffff;
+    }
+
+    #contents {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    #text-content {
+        text-align: justify;
+        height: 275px;
+        width: 950px;
+        margin: 0px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: "home-cred";
+        font-size: 15px;
+    }
+
+    #line1 {
+        margin-top: 20px;
+    }
+
+    #statue2 {
+        height: 250px;
+        width: 250px;
+
+
+
+    }
+
+    #guardian-page {
+        margin: 0px;
+        font-family: home-font;
+    }
+</style>
+
+<body>
+    <div id="front">
+        <div id="top-page">
+            <h1 id="guardian">Guardian</h1>
+            <div id="line"></div>
+            <p id="tagline">Justice made accessible</p>
+            <div id="log">
+                <a href="http://localhost:5173"><button class="reg">Sign In</button></a>
+                <a href="http://localhost:5174"><button class="reg">Sign Up</button></a>
+                <a href="http://localhost:5176"><button class="reg">User Chat</button></a>
+                <a href="http://localhost:5177"><button class="reg">Advocate Chat</button></a>
+                <a href="http://localhost:5175"><button class="reg">Profile</button></a>
+                <a href="http://127.0.0.1:8000/chatbot/index.html"><button class="reg">Legal AI Bot</button></a>
+
+
+            </div>
+
+        </div>
+        <div id="image"><img id="statue" src="./Justice.png" alt=""></div>
+    </div>
+    <div id="desc">
+        <div class="lines" id="line1"></div>
+        <div id="contents">
+            <div id="text-content">
+                <h2 id="guardian-page">Guardian</h2>
+                <hr style="border: 1px solid white;margin: 0px;">
+
+                <p id="text-content">Guardian is an AI-powered legal support platform designed to make justice
+                    accessible, affordable, and understandable for everyone. Legal assistance today is often expensive,
+                    slow, and hidden behind complex language that discourages citizens, students, and small businesses
+                    from seeking timely help. Guardian removes these barriers by providing instant, plain-language legal
+                    guidance without appointments or high consultation costs. Acting as a first line of support, it
+                    offers simplified explanations of laws, step-by-step procedural guidance, and assistance with basic
+                    legal document drafting. By handling repetitive and informational queries, Guardian reduces the
+                    workload on lawyers while ensuring users receive consistent, reliable guidance at any time. Unlike
+                    traditional legal tools, Guardian prioritizes clarity and trust, translating complex legal concepts
+                    into simple terms while maintaining accuracy through lawyer-verified content. Built to support—not
+                    replace—legal professionals, Guardian strengthens the justice ecosystem by improving legal literacy
+                    and enabling experts to focus on complex cases. Aligned with SDG 16 – Peace, Justice, and Strong
+                    Institutions, Guardian promotes transparency, fairness, and equal access to justice, with future
+                    plans for multilingual support, advanced document automation, and integration with court and
+                    government systems.</p>
+
+            </div>
+            <div id="img-content"><img id="statue2" src="./Guardian White.png" alt=""></div>
+        </div>
+        <div class="lines" id="line2"></div>
+    </div>
+    </div>
+    </div>
+    <div class="helpline_bar" id="helpline">
+        <h1 style="font-family: home-font;padding: 0px;margin: 0px; padding-top: 15px;">For Queries Contact</h1>
+        <hr style="width: 1400px;border: none; background-color: #fff; height: 1.5px;">
+        <p style="padding: 0px;margin: 0px;;">Phone Number: +91 7305896363</p>
+        <p style="padding: 0px;margin: 0px;;padding-bottom: 15px;">Mail Id: sriraam1411@gmail.com</p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Helper to get cookie
+            const getCookie = (name) => {
+                return document.cookie.split('; ').reduce((r, v) => {
+                    const parts = v.split('=');
+                    return parts[0] === name ? decodeURIComponent(parts[1]) : r;
+                }, '');
+            };
+
+            // Unified check (Cookie preferred, localStorage fallback for legacy)
+            const userStr = getCookie('guardianUser') || localStorage.getItem('guardianUser');
+            const logContainer = document.getElementById('log');
+
+            if (userStr && logContainer) {
+                try {
+                    const userData = JSON.parse(userStr);
+                    const profileLink = userData.role === 'Advocate' ? 'http://localhost:5178' : 'http://localhost:5175';
+
+                    // Update welcome message and buttons
+                    logContainer.innerHTML = `
+                        <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+                            <p style="color: #8f6703; font-family: home-para; font-size: 22px; margin: 0; font-weight: bold;">Welcome, ${userData.name}!</p>
+                            <div style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap;">
+                                <a href="http://localhost:5176"><button class="reg">User Chat</button></a>
+                                <a href="http://localhost:5177"><button class="reg">Advocate Chat</button></a>
+                                <a href="${profileLink}"><button class="reg">Profile</button></a>
+                                <a href="http://localhost:8000/chatbot/index.html"><button class="reg">Legal AI Bot</button></a>
+
+                                <button class="reg" id="logout-btn" style="background-image: linear-gradient(to bottom right, #8b0000, #4b0000);">Logout</button>
+                            </div>
+                        </div>
+                    `;
+
+                    document.getElementById('logout-btn').addEventListener('click', () => {
+                        // Clear both for completeness
+                        document.cookie = "guardianUser=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                        localStorage.removeItem('guardianUser');
+                        location.reload();
+                    });
+                } catch (e) {
+                    console.error("Error parsing user data", e);
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

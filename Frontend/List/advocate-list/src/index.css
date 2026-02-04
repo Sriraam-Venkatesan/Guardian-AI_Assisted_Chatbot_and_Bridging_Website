@@ -1,0 +1,147 @@
+     @font-face {
+        font-family: "home-font";
+        src: url("/Cinzel-Bold.otf");
+    }
+     @font-face {
+        font-family: "home-para";
+        src: url("/cinzel.regular.otf");
+    }
+    @font-face {
+        font-family:"home-cred" ;
+        src: url("/NotoSerif-VariableFont_wdth\,wght.ttf");
+    }
+    body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+   background-image: linear-gradient(to right, #00000058, rgb(255, 255, 255));
+}
+
+    #bar{
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+        display: flex;
+        gap:325px;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px black;
+    }
+   #helpline{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "home-para";
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+      border-radius: 30px 30px 0 0;  
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.525);
+      font-family:"home-cred" ;
+      margin-top: 40px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }  
+    #guardian{
+        font-family: "home-font";
+        display: inline;
+        
+    }
+    #logo{
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+    
+    }
+    #options{    
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-family: "home-para";
+        font-size: 14px;
+        margin-left: 400px;
+
+    }
+   
+   .adv-prof{
+        height: 400px;
+        width: 300px;
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;   
+        border-radius: 40px;  
+        color: white;
+        box-shadow: 0px 0px 5px black;
+   }
+   .adv-prof:hover{
+         background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+            cursor: pointer;
+   }
+   #pfp{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    box-shadow: 0px 0px 5px black;
+    border: 7px solid #7c5a04;
+   }
+   #desc{
+    display: inline;
+    margin:0;
+    padding-left: 20px;
+    padding-right: 20px;
+     margin-top: 5px;
+    text-align: justify;
+    font-family:"home-cred" ;
+    font-size: 12px;
+    text-shadow: 0px 0px 1px;
+   }
+   #name{
+    display: inline;
+    margin: 0;
+    margin-top: 20px;
+    font-family: home-font;
+    text-shadow: 0px 0px 2px;
+   }
+   #selection-page{
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+   }
+  #queries{
+    font-family: home-font;
+    padding: 0px;
+    margin: 0px; 
+    padding-top: 15px;
+}
+#line1{
+    width: 1400px;
+    border: none;
+     background-color: #fff; 
+     height: 1.5px;
+}
+#call{
+    padding: 0px;
+    margin: 0px;
+}
+#mail{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+#victim-list{
+    text-align: center;
+    font-family: home-font; 
+    text-shadow: 0px 0px 2px; 
+}

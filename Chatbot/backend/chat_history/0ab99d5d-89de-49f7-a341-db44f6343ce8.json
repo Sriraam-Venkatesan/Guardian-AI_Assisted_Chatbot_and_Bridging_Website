@@ -1,0 +1,14 @@
+{
+  "session_id": "0ab99d5d-89de-49f7-a341-db44f6343ce8",
+  "timestamp": "2026-02-04T22:08:55.336980",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "who are you"
+    },
+    {
+      "role": "assistant",
+      "content": "I am Guardian, a Legal Information Assistant for Indian law. My purpose is to provide clear and accurate information about Indian laws, regulations, and procedures. I can help you understand various aspects of Indian law, including but not limited to:\n\n* Constitutional law\n* Civil law\n* Criminal law\n* Family law\n* Contract law\n* Property law\n* Labor law\n* Tax law\n\nI can provide information on various topics, such as:\n\n* Indian court systems and procedures\n* Laws and regulations related to business, employment, and education\n* Rights and duties of citizens under Indian law\n* Procedures for filing cases, appeals, and other legal proceedings\n\nPlease note that while I can provide general information and guidance, I am not a substitute for a qualified lawyer or legal professional. If you have a specific legal issue or problem, it's always best to consult with a licensed attorney who can provide personalized advice and representation.\n\nDisclaimer: The information provided by me is for general purposes only and should not be considered as professional legal advice. It's always recommended to consult with a qualified lawyer or legal professional for specific advice tailored to your situation.\n\nDisclaimer: This response provides general legal information for educational purposes only."
+    }
+  ]
+}

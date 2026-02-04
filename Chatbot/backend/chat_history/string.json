@@ -1,0 +1,15 @@
+{
+  "session_id": "string",
+  "timestamp": "2026-02-04T16:33:34.907111",
+  "last_updated": "2026-02-04T16:33:34.907111",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Child custody laws"
+    },
+    {
+      "role": "assistant",
+      "content": "In India, child custody laws are primarily governed by the Guardians and Wards Act, 1890, and the Hindu Minority and Guardianship Act, 1956. Here are some key points to consider:\n\n**Types of Child Custody:**\n\n* **Physical Custody:** The child lives with one parent, who is responsible for their daily care.\n* **Legal Custody:** One or both parents have the right to make important decisions about the child's life, such as education, healthcare, and extracurricular activities.\n* **Joint Custody:** Both parents share physical and legal custody of the child.\n* **Sole Custody:** One parent has both physical and legal custody of the child.\n\n**Factors Considered in Child Custody Cases:**\n\n* The child's welfare and best interests\n* The child's physical, emotional, and psychological needs\n* The ability of each parent to provide a stable and loving environment\n* The child's relationship with each parent and other family members\n* Any history of domestic violence or abuse\n\n**Laws Governing Child Custody:**\n\n* **Guardians and Wards Act, 1890:** Applies to all citizens, regardless of religion\n* **Hindu Minority and Guardianship Act, 1956:** Applies to Hindus, including Jains, Sikhs, and Buddhists\n* **Muslim Personal Law (Shariat) Application Act, 1937:** Applies to Muslims\n* **Indian Divorce Act, 1869:** Applies to Christians\n\n**Procedure for Obtaining Child Custody:**\n\n1. **File a petition:** A parent can file a petition in a family court or a district court, seeking custody of the child.\n2. **Court hearing:** The court will hear the petition and consider the factors mentioned above.\n3. **Interim custody:** The court may grant interim custody to one parent until the final decision is made.\n4. **Final order:** The court will make a final order regarding child custody, considering the best interests of the child.\n\n**Important Notes:**\n\n* The court's primary consideration is the child's welfare and best interests.\n* The court may appoint a guardian or a custody evaluator to assess the situation and provide recommendations.\n* Child custody orders can be modified or revised if circumstances change.\n\nDisclaimer: This response provides general legal information for educational purposes only and does not constitute professional legal advice. Please consult a qualified advocate for advice specific to your situation."
+    }
+  ]
+}

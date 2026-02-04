@@ -1,0 +1,152 @@
+ @font-face {
+            font-family: "home-para";
+            src: url("./cinzel.regular.otf");
+        }
+        @font-face {
+            font-family:"home-cred";
+            src: url("./NotoSerif-VariableFont_wdth\,wght.ttf");
+        }
+        @font-face {
+            font-family: "title";
+            src: url("./Cinzel-Bold.otf");
+        }
+   
+   body{
+        height: 99vh;
+        display: grid;
+        grid-template-rows: 1fr 20fr 1fr;
+        margin: 0;
+        padding: 0;
+    }
+   #bar{
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+        display: flex;
+        gap:325px;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px black;
+    }
+     #options{    
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-family: "home-para";
+        font-size: 14px;
+       margin-left: 70px;
+
+    }
+    #logo{
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        display: inline;}
+     a{
+        color: white;
+        text-decoration: none;
+    }  
+    #helpline{
+        text-align: center;
+        background-color: #a53e3e;
+
+    }
+     #guardian{
+        font-family: "title";
+        margin-top: 45px;
+        display: inline;
+    }  
+    #options{    
+        display: flex;
+        gap: 20px;
+
+    }
+    button{
+    height: 33px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    font-family: home-para;
+    font-size: 14px;
+   background-image: linear-gradient(to bottom right, #966125, #5a4102);
+   color: white;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.584);
+   margin-right: 10px;
+ }
+ button:hover{
+    background-image: linear-gradient(to bottom right, #c78334, #7c5a04);
+    cursor: pointer;
+ }
+    #pfp{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        display: inline;
+        box-shadow: 0px 0px 5px black;
+        border: 7px solid #966125;
+        
+        
+    }
+    #desc{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    #prof-desc{
+      
+        display: inline;
+    }
+    #page{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    p{
+        font-family:"home-cred";
+        font-size: 13px;
+        text-align: justify;
+    }
+    #name{
+        font-family: "title";
+        text-shadow: 0px 0px 1.5px black;
+    }
+    #role{
+        font-family: "home-para";
+        font-size: 20px;
+        text-shadow: 0px 0px 1.5px black;
+    }
+    #helpline{
+        display: flex;
+        flex-direction: column;
+        gap: 19.5px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "home-para";
+        background-image: linear-gradient(to bottom right, #966125, #5a4102);
+      border-radius: 30px 30px 0 0;  
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.525);
+      font-family:"home-cred" ;
+      margin-top: 141px;
+    }
+    #queries{
+    font-family: title;
+    padding: 0px;
+    margin: 0px; 
+    padding-top: 15px;
+}
+#line1{
+    width: 1400px;
+    border: none;
+     background-color: #fff; 
+     height: 1.5px;
+}
+#call{
+    padding: 0px;
+    margin: 0px;
+}
+#mail{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 15px;
+}

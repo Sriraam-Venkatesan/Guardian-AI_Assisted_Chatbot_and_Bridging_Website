@@ -1,0 +1,7 @@
+streamlit
+ollama
+PyPDF2
+python-docx
+langdetect
+guardian_llm
+google-generativeai
